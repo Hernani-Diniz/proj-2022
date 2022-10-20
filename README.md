@@ -1,7 +1,7 @@
 # proj-2022
 
-Need to install several pacakges in order to run!
-
+# Need to install several packages in order to run!
+```
 npm instal handlebars 
             bcryptjs 
             body-parser 
@@ -18,7 +18,7 @@ npm instal handlebars
             passport-local
             path
             timeago.js
-            
+ ```              
             
 # After install go to pacakge.json
 
