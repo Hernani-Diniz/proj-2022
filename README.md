@@ -24,11 +24,12 @@ npm instal handlebars
 
 In here: 
 
+```
  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
     "dev": "nodemon server"
-    
+ ```   
     
     
 # Go to terminal and run "npm run dev"
