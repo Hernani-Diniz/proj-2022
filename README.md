@@ -33,3 +33,8 @@ In here and start and dev:
     
     
 # Go to terminal and run "npm run dev"
+```
+npm run dev
+
+ ```   
+
