@@ -22,7 +22,7 @@ npm instal handlebars
             
 # After install go to pacakge.json
 
-In here: 
+In here and start and dev: 
 
 ```
  "scripts": {
