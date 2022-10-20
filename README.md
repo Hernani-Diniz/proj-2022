@@ -24,7 +24,7 @@ npm instal handlebars
 
 In here and start and dev: 
 
-```
+```java
  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
