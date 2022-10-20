@@ -20,7 +20,7 @@ npm instal handlebars
             timeago.js
             
             
-#After install go to pacakge.json
+# After install go to pacakge.json
 
 In here: 
 
@@ -31,4 +31,4 @@ In here:
     
     
     
-#Go to terminal and run "npm run dev"
+# Go to terminal and run "npm run dev"
