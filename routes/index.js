@@ -29,4 +29,18 @@ router.get('/', (req, res) => {
       res.render('graphs');
     });
 
+    router.get('/locais', (req, res) => {
+      res.render('locais');
+    });
+
+    router.get('/leituraSensor', (req, res) => {
+      res.render('leituraSensor');
+    });
+
+    router.get('/leituraImagem', (req, res) => {
+      res.render('leituraImagem');
+    });
+
+
+
     module.exports = router;

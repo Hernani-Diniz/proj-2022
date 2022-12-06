@@ -11,7 +11,7 @@
 <body>
 
 <nav>
-		<h4>Temperature and <br> Humidity<br> Readings</h4>
+		<<h4>LORAWAN</h4>
 		<ul>
 			<li><a href="/logged">Home</a></li>
 			<li><a href="/sensores">My Sensors</a></li>
@@ -31,14 +31,61 @@
   <!--TODO: mudar formulario mais parecido ttn -->
   <div class="card-body">
      <form action ="" method="POST">
+
+      <div class="mb-3">
+        <label for="typeSensor">Tipo:</label>
+          <select name="tipo" class="form-control" id="tipo">
+              <option value="arduino">Sensor Temp/Hum</option>
+              <option value="img">Sensor Imagem</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+        <label for="modelSensor">Modelo:</label>
+          <select name="model" class="form-control" id="model">
+              <option value="mkr">MKR WAN 1310</option>
+              <option value="image">Camera(designar isto depois)</option>
+              <option value="other">Other</option>
+          </select>
+        </div>
+
+         <div class="mb-3">
+        <label for="frequencySensor">Plano de Frequência:</label>
+          <select name="frequency" class="form-control" id="frequency">
+              <option value="1">Europe 863-870 MHz (SF12 for RX2) </option>
+              <option value="2">Europe 863-870 MHz (SF9 for RX2-recommended)</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+        <label for="devSensor">DEV EUI:</label>
+        <input type="text" class="form-control" id="devSensor" name="devSensor"/>
+        </div>
+
+         <div class="mb-3">
+        <label for="appSensor">APP EUI:</label>
+        <input type="text" class="form-control" id="appSensor" name="appSensor"/>
+        </div>
+
+         <div class="mb-3">
+        <label for="keySensor">APP KEY:</label>
+        <input type="text" class="form-control" id="keySensor" name="keySensor"/>
+        </div>
+
+
       <div class="mb-3">
         <label for="nameSensor">Name Sensor:</label>
         <input type="text" class="form-control" id="nameSensor" name="nameSensor" placeholder="Ex. Quintal , Jardim , Vinha"/>
         </div>
 
          <div class="mb-3">
-          <label for="localSensor" class="form-label">Localização:</label>
-          <input type="text" class="form-control" id="localSensor" name="localSensor">
+          <label for="latSensor" class="form-label">Latitude:</label>
+          <input type="text" class="form-control" id="latSensor" name="latSensor">
+        </div>
+
+        <div class="mb-3">
+          <label for="longSensor" class="form-label">Longitude:</label>
+          <input type="text" class="form-control" id="longSensor" name="longSensor">
         </div>
 
         <div class="mb-3">
@@ -48,6 +95,8 @@
        
         <button type="submit" class="btn btn-primary">Add Sensor</button>
     </form>
+
+    <!-- TODO: falta mapa pequeno para ajudar a escolher localização  -->
   </div>
 </div>
 
